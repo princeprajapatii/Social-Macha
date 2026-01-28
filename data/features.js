@@ -34,4 +34,11 @@ export const features = [
     description:
       "End-to-end campaign planning and execution across online and on-ground channels.",
   },
+  {
+    id: 6,
+    title: "PR Services",
+    tagline: "Stories that travel. Reputation that lasts.",
+    description:
+      "We help brands earn credibility through strategic media placements, press coverage, and narrative-building that shapes public perception and builds long-term trust.",
+  },
 ];

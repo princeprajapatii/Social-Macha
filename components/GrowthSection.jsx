@@ -67,21 +67,21 @@ export default function GrowthSection() {
                     {/* STATS CARD */}
                     <div className="rounded-2xl bg-lime-400 p-6 grid grid-cols-3 text-center">
                         <div>
-                            <h3 className="text-2xl font-extrabold text-black">172+</h3>
+                            <h3 className="text-2xl font-extrabold text-black">250+</h3>
                             <p className="mt-1 text-xs font-medium text-black">
                                 Drive Engagement
                             </p>
                         </div>
 
                         <div>
-                            <h3 className="text-2xl font-extrabold text-black">283+</h3>
+                            <h3 className="text-2xl font-extrabold text-black">5M+</h3>
                             <p className="mt-1 text-xs font-medium text-black">
                                 Digital Presence
                             </p>
                         </div>
 
                         <div>
-                            <h3 className="text-2xl font-extrabold text-black">453+</h3>
+                            <h3 className="text-2xl font-extrabold text-black">98%</h3>
                             <p className="mt-1 text-xs font-medium text-black">
                                 Creating Impact
                             </p>

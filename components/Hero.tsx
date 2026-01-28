@@ -8,9 +8,6 @@ export default function Hero() {
 
         {/* LEFT CONTENT */}
         <div>
-          <span className="inline-block mb-4 rounded-full bg-purple-100 px-4 py-1 text-sm font-medium text-purple-700">
-            Digital Marketing
-          </span>
 
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
             Grow Your Business with <br />
@@ -21,7 +18,7 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-gray-600">
             We help brands scale faster using influencer marketing,
-            content, and performance-driven digital strategies.
+            prsonal Branding, and performance-driven digital strategies.
           </p>
 
           {/* CTA BUTTONS */}
@@ -81,7 +78,7 @@ export default function Hero() {
             </div>
 
             <div className="mt-2 text-3xl font-bold text-gray-900">
-              9.6
+              4.8
             </div>
 
             <p className="mt-1 text-sm text-gray-500">

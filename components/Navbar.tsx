@@ -4,6 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
+const navItems = [
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Services", path: "/services" },
+  { name: "Case Studies", path: "/case-studies" },
+  { name: "Contact", path: "/contact" },
+];
+
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -26,22 +35,12 @@ export default function Navbar() {
 
         {/* DESKTOP NAV */}
         <ul className="hidden md:flex items-center gap-8 text-[15px] font-medium text-gray-800 px-10">
-          {["Home", "About", "Services","Work", "Contact"].map((item) => (
-            <li key={item} className="hover:text-purple-600 transition">
-              <Link href={`/${item === "Home" ? "" : item.toLowerCase()}`}>
-                {item}
-              </Link>
+          {navItems.map((item) => (
+            <li key={item.name} className="hover:text-purple-600 transition">
+              <Link href={item.path}>{item.name}</Link>
             </li>
           ))}
         </ul>
-
-        {/* CTA (Desktop) */}
-        <Link
-          href="/contact"
-          className="hidden md:inline-block rounded-full bg-gradient-to-r from-purple-600 to-purple-700 px-6 py-3 text-sm font-semibold text-white hover:shadow-lg transition"
-        >
-          Get Started
-        </Link>
 
         {/* MOBILE MENU BUTTON */}
         <button
@@ -56,27 +55,21 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden bg-[#f6f4ff] px-6 pb-4">
           <ul className="flex flex-col gap-4 text-gray-800 font-medium">
-            {["Home", "About", "Services", "Portfolio", "Contact"].map((item) => (
-              <li key={item}>
+            {navItems.map((item) => (
+              <li key={item.name}>
                 <Link
-                  href={`/${item === "Home" ? "" : item.toLowerCase()}`}
+                  href={item.path}
                   onClick={() => setOpen(false)}
                   className="block py-2 hover:text-purple-600"
                 >
-                  {item}
+                  {item.name}
                 </Link>
               </li>
             ))}
           </ul>
-
-          <Link
-            href="/contact"
-            className="mt-4 inline-block w-full text-center rounded-full bg-purple-600 py-3 text-white font-semibold"
-          >
-            Get Started
-          </Link>
         </div>
       )}
+
     </header>
   );
 }

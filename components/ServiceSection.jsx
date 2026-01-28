@@ -42,19 +42,19 @@ export default function ServiceSection({ service, index }) {
         <div className={isReversed ? "lg:order-1" : ""}>
           <div className="space-y-6">
             <div>
-              <h4 className="font-semibold text-gray-900">
+              <h4 className="text-lg font-semibold text-gray-900">
                 Who it’s for
               </h4>
-              <p className="mt-1 text-gray-600">
+              <p className="text-base mt-1 text-gray-600">
                 {service.whoItsFor}
               </p>
             </div>
 
             <div>
-              <h4 className="font-semibold text-gray-900">
+              <h4 className="text-lg font-semibold text-gray-900">
                 What we do
               </h4>
-              <ul className="mt-2 space-y-2 text-gray-600">
+              <ul className="text-base mt-2 space-y-2 text-gray-600">
                 {service.whatWeDo.map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-purple-600" />
@@ -65,10 +65,10 @@ export default function ServiceSection({ service, index }) {
             </div>
 
             <div className="rounded-xl bg-purple-50 p-5">
-              <h4 className="font-semibold text-purple-700">
+              <h4 className="text-lg font-semibold text-purple-700">
                 Outcome
               </h4>
-              <p className="mt-1 text-gray-700">
+              <p className="text-base mt-1 text-gray-700">
                 {service.outcome}
               </p>
             </div>

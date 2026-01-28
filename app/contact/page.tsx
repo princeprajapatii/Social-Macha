@@ -68,9 +68,6 @@ export default function ContactPage() {
 
                     {/* LEFT CONTENT */}
                     <div>
-                        <span className="text-sm font-semibold uppercase tracking-wide text-purple-600">
-                            Contact
-                        </span>
 
                         <h1 className="mt-4 text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
                             Let’s build something <br />
@@ -111,7 +108,7 @@ export default function ContactPage() {
 
                             <p>
                                 <span className="font-semibold">Location:</span>{" "}
-                                India
+                                Gurugram, India
                             </p>
                         </div>
                     </div>
@@ -163,11 +160,13 @@ export default function ContactPage() {
                                 className="w-full px-4 py-3 rounded-lg border"
                             >
                                 <option value="">Select Service</option>
-                                <option>Influencer Marketing</option>
-                                <option>Content & Production</option>
-                                <option>Personal Branding</option>
                                 <option>Social Media Management</option>
+                                <option>Influencer Marketing</option>
+                                <option>Personal Branding</option>
                                 <option>Campaign Strategy & Execution</option>
+                                <option>Content & Production</option>
+                                <option>PR Services</option>
+                                <option>Other</option>
                             </select>
 
                             <textarea

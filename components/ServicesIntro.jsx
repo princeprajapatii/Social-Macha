@@ -7,9 +7,6 @@ export default function ServicesIntro() {
 
         {/* LEFT */}
         <div>
-          <span className="inline-block mb-4 rounded-full bg-purple-100 px-4 py-1 text-sm font-semibold text-purple-700">
-            Our Services
-          </span>
 
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
             Tailored Strategies for <br />
