@@ -27,10 +27,10 @@ export default function GrowthSection() {
                         </h3>
 
                         <p className="mt-3 max-w-xl text-sm text-gray-200">
-                            • Strategy before execution — always <br />
-                            • Creator-first, audience-obsessed approach <br />
+                            • Strategy before execution always <br />
+                            • Creator first, audience obsessed approach <br />
                             • Strong network across fashion, lifestyle & youth culture <br />
-                            • Fast-moving, performance-driven teams <br />
+                            • Fast moving, performance driven teams <br />
                             • Desi insight with global delivery standards <br />
                         </p>
 
@@ -69,21 +69,21 @@ export default function GrowthSection() {
                         <div>
                             <h3 className="text-2xl font-extrabold text-black">250+</h3>
                             <p className="mt-1 text-xs font-medium text-black">
-                                Drive Engagement
+                                Campaigns Delivered
                             </p>
                         </div>
 
                         <div>
                             <h3 className="text-2xl font-extrabold text-black">5M+</h3>
                             <p className="mt-1 text-xs font-medium text-black">
-                                Digital Presence
+                                Monthly Reach
                             </p>
                         </div>
 
                         <div>
                             <h3 className="text-2xl font-extrabold text-black">98%</h3>
                             <p className="mt-1 text-xs font-medium text-black">
-                                Creating Impact
+                                Client Retention
                             </p>
                         </div>
                     </div>

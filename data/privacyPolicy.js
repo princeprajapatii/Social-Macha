@@ -62,7 +62,7 @@ export const privacyPolicyData = {
       content: [
         "We process personal data only where we have a lawful basis, including:",
         "Your consent",
-        "Performance of a contract or pre-contractual request",
+        "Performance of a contract or pre contractual request",
         "Compliance with legal obligations",
         "Our legitimate business interests, provided they do not override your fundamental rights"
       ],
@@ -74,7 +74,7 @@ export const privacyPolicyData = {
         "To provide and manage digital marketing services",
         "To respond to inquiries and communicate with you",
         "To improve our website, services, and user experience",
-        "To send marketing communications (with opt-out options)",
+        "To send marketing communications (with opt out options)",
         "To run and optimize advertising campaigns, where applicable",
         "To comply with legal and regulatory requirements"
       ],
@@ -141,9 +141,9 @@ export const privacyPolicyData = {
     },
 
     {
-      heading: "10. Third-Party Links",
+      heading: "10. Third Party Links",
       content: [
-        "Our website may contain links to third-party websites or platforms.",
+        "Our website may contain links to third party websites or platforms.",
         "Social Macha is not responsible for the privacy practices or content of such third parties."
       ],
     },

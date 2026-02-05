@@ -16,7 +16,7 @@ export default function ServicesIntro() {
           </h1>
 
           <p className="mt-6 max-w-xl text-gray-600">
-            We design performance-driven marketing systems that help brands grow,
+            We design performance driven marketing systems that help brands grow,
             scale, and win attention across digital platforms.
           </p>
         </div>

@@ -12,9 +12,6 @@ export default function ServiceSection({ service, index }) {
       >
         {/* HEADING + IMAGE */}
         <div className={isReversed ? "lg:order-2" : ""}>
-          <span className="text-sm font-semibold text-purple-600">
-            Service {index + 1}
-          </span>
 
           <h2 className="mt-2 text-3xl md:text-4xl font-extrabold text-gray-900">
             {service.title}

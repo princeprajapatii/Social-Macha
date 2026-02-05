@@ -9,9 +9,6 @@ export default function AboutPage() {
 
                     {/* LEFT CONTENT */}
                     <div>
-                        <span className="text-sm font-semibold tracking-wide text-purple-600 uppercase">
-                            About Social Macha
-                        </span>
 
                         <h1 className="mt-4 text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
                             Built to challenge how brands
@@ -24,8 +21,8 @@ export default function AboutPage() {
                         <p className="mt-8 text-lg leading-relaxed text-gray-600 max-w-xl">
                             Social Macha was built to challenge how brands show up online.
                             We’re a creative & influencer marketing agency that blends strategy,
-                            culture, and execution to help brands stay relevant — and profitable —
-                            in a fast-moving internet world.
+                            culture, and execution to help brands stay relevant and profitable
+                            in a fast moving internet world.
                         </p>
 
                         <p className="mt-6 text-lg leading-relaxed text-gray-600 max-w-xl">
@@ -58,7 +55,7 @@ export default function AboutPage() {
                                 Strategy first.
                             </h3>
                             <p className="mt-4 text-gray-600 leading-relaxed">
-                                Every move starts with clarity. We don’t chase trends — we align
+                                Every move starts with clarity. We don’t chase trends we align
                                 strategy with business outcomes.
                             </p>
                         </div>
@@ -66,10 +63,10 @@ export default function AboutPage() {
                         {/* POINT 2 */}
                         <div>
                             <h3 className="text-2xl font-bold text-gray-900">
-                                Culture-aware execution.
+                                Culture aware execution.
                             </h3>
                             <p className="mt-4 text-gray-600 leading-relaxed">
-                                We understand internet culture, creators, and communities —
+                                We understand internet culture, creators, and communities
                                 and translate that into meaningful brand presence.
                             </p>
                         </div>
@@ -81,7 +78,7 @@ export default function AboutPage() {
                             </h3>
                             <p className="mt-4 text-gray-600 leading-relaxed">
                                 No vanity metrics. No inflated numbers.
-                                We focus on impact, consistency, and long-term value.
+                                We focus on impact, consistency, and long term value.
                             </p>
                         </div>
 

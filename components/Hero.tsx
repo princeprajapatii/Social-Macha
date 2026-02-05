@@ -12,13 +12,13 @@ export default function Hero() {
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
             Grow Your Business with <br />
             <span className="text-purple-700">
-              Data-Driven Digital Marketing
+              Data Driven Digital Marketing
             </span>
           </h1>
 
           <p className="mt-6 max-w-xl text-gray-600">
             We help brands scale faster using influencer marketing,
-            prsonal Branding, and performance-driven digital strategies.
+            prsonal Branding, and performance driven digital strategies.
           </p>
 
           {/* CTA BUTTONS */}

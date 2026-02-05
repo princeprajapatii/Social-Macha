@@ -12,7 +12,7 @@ export default function WorkPage() {
             Work that drives real outcomes
           </h1>
           <p className="mt-5 text-lg text-gray-600">
-            We partner with brands to create high-intent, culture-led
+            We partner with brands to create high intent, culture led
             marketing that converts attention into action.
           </p>
         </div>
@@ -24,28 +24,28 @@ export default function WorkPage() {
           
           <CaseStudyCard
             brand="magicpin"
-            objective="Drive user acquisition and app logins among high-intent users in metro cities using WhatsApp communities."
+            objective="Drive user acquisition and app logins among high intent users in metro cities using WhatsApp communities."
             challenge="Low intent from traditional paid channels while targeting college students and corporate professionals."
             strategy={[
               "Targeted WhatsApp communities across metro cities",
               "Leveraged local influencers and community admins",
-              "Weekend-led incentive-driven campaign",
+              "Weekend led incentive driven campaign",
             ]}
             results={[
               "100,000+ users reached",
               "15,000+ app logins",
               "High weekend redemption & intent traffic",
             ]}
-            impact="Community-led distribution helped magicpin scale cost-effective, high-intent user acquisition."
+            impact="Community led distribution helped magicpin scale cost effective, high intent user acquisition."
           />
 
           <CaseStudyCard
             brand="DKMS Foundation"
-            objective="Drive large-scale awareness around blood cancer survivors and stem cell donors."
+            objective="Drive large scale awareness around blood cancer survivors and stem cell donors."
             challenge="Traditional awareness campaigns felt scripted and easy to ignore."
             strategy={[
               "Collaborated with 200+ creators",
-              "Produced 200+ emotion-led short-form videos",
+              "Produced 200+ emotion led short form videos",
               "Focused on human, unbranded storytelling",
             ]}
             results={[
@@ -53,17 +53,17 @@ export default function WorkPage() {
               "2.5%+ engagement rate",
               "High shareability & community participation",
             ]}
-            impact="Story-first content helped DKMS become part of emotionally resonant conversations."
+            impact="Story first content helped DKMS become part of emotionally resonant conversations."
           />
 
           <CaseStudyCard
             brand="Zomato"
             objective="Extend the life and reach of offline billboards on LinkedIn."
-            challenge="Billboards have limited lifespan and offline-only visibility."
+            challenge="Billboards have limited lifespan and offline only visibility."
             strategy={[
               "Repurposed billboard creatives into LinkedIn posts",
               "Used Zomato’s wit and cultural timing",
-              "Optimized copy for LinkedIn-native consumption",
+              "Optimized copy for LinkedIn native consumption",
             ]}
             results={[
               "1M+ LinkedIn impressions",
@@ -75,19 +75,19 @@ export default function WorkPage() {
 
           <CaseStudyCard
             brand="Dating App (Confidential)"
-            objective="Drive high-intent app installs using performance-led creator campaigns."
+            objective="Drive high intent app installs using performance led creator campaigns."
             challenge="Highly competitive dating category with low trust."
             strategy={[
-              "Creator-led Reels & Shorts campaigns",
+              "Creator led Reels & Shorts campaigns",
               "Relatable dating narratives & curiosity hooks",
-              "Install-focused CTAs with rapid iterations",
+              "Install focused CTAs with rapid iterations",
             ]}
             results={[
               "3M+ impressions",
               "50K+ installs",
               "Consistent install velocity",
             ]}
-            impact="Platform-native storytelling successfully converted attention into installs."
+            impact="Platform native storytelling successfully converted attention into installs."
           />
 
         </div>

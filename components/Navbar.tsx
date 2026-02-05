@@ -17,12 +17,12 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-[#f6f4ff] border-b border-purple-100 sticky top-0 z-50">
+  <header className="w-full bg-[#f6f4ff] border-b border-purple-100 sticky top-0 z-50 md:py-1 overflow-visible">
       <nav className="max-w-7xl mx-auto px-5 flex items-center justify-between">
 
         {/* LOGO */}
         <Link href="/" className="flex items-center mr-auto">
-          <div className="relative w-[90px] h-[70px] sm:w-[110px] sm:h-[85px] md:w-[130px] md:h-[100px]">
+          <div className="relative w-[110px] h-[85px] sm:w-[130px] sm:h-[100px] md:w-[160px] md:h-[120px] logo-animate">
             <Image
               src="/logo.png"
               alt="Social Macha Logo"

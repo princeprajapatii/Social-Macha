@@ -19,8 +19,8 @@ export default function AboutHighlights() {
           </h2>
 
           <p className="mt-4 max-w-xl text-gray-600">
-            We help brands grow through data-driven strategies, creative execution,
-            and performance-focused digital marketing solutions.
+            We help brands grow through data driven strategies, creative execution,
+            and performance focused digital marketing solutions.
           </p>
 
           {/* IMAGE */}

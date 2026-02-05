@@ -1,34 +1,34 @@
 export const servicesPage = [
   {
-    id: "influencer-marketing",
+    id: "influencer marketing",
     title: "Influencer Marketing",
-    image: "/influencer-marketing.png",
+    image: "/influencer marketing.png",
     whatItIs:
       "Creator collaborations designed to move attention, trust, and sales.",
     whoItsFor:
-      "D2C brands, fashion & lifestyle labels, beauty, FMCG, consumer-first businesses.",
+      "D2C brands, fashion & lifestyle labels, beauty, FMCG, consumer first businesses.",
     whatWeDo: [
       "Creator discovery & vetting",
       "Campaign concepts & narratives",
       "Contracting & coordination",
-      "End-to-end execution",
+      "End to end execution",
       "Performance tracking & reporting",
     ],
     outcome:
       "Authentic reach. Strong engagement. Business impact.",
   },
   {
-    id: "content-production",
+    id: "content production",
     title: "Content & Production",
     image: "/content.png",
     whatItIs:
-      "High-performing content built for social-first brands.",
+      "High performing content built for social first brands.",
     whoItsFor:
       "Brands that want to stand out — not blend in.",
     whatWeDo: [
       "Content & creative strategy",
-      "Short-form videos, reels & statics",
-      "Influencer-led shoots",
+      "Short form videos, reels & statics",
+      "Influencer led shoots",
       "Campaign creatives",
       "Editing & optimization",
     ],
@@ -36,9 +36,9 @@ export const servicesPage = [
       "Content people stop for — and remember.",
   },
   {
-    id: "personal-branding",
+    id: "personal branding",
     title: "Personal Branding",
-    image: "/personal-branding.png",
+    image: "/personal branding.png",
     whatItIs:
       "Strategic personal brand building for modern leaders.",
     whoItsFor:
@@ -46,18 +46,18 @@ export const servicesPage = [
     whatWeDo: [
       "Positioning & narrative building",
       "Content direction",
-      "Platform-specific strategies",
+      "Platform specific strategies",
       "Growth & consistency systems",
     ],
     outcome:
-      "Authority, credibility, and long-term influence.",
+      "Authority, credibility, and long term influence.",
   },
   {
-    id: "social-media-management",
+    id: "social media management",
     title: "Social Media Management",
-    image: "/social-media.png",
+    image: "/social media.png",
     whatItIs:
-      "Always-on social presence, done right.",
+      "Always on social presence, done right.",
     whoItsFor:
       "Brands serious about growth, not just posting.",
     whatWeDo: [
@@ -71,18 +71,18 @@ export const servicesPage = [
       "Engaged communities. Stronger brand recall.",
   },
   {
-    id: "campaign-strategy",
+    id: "campaign strategy",
     title: "Campaign Strategy & Execution",
     image: "/campaign.png",
     whatItIs:
-      "High-visibility campaigns designed for scale.",
+      "High visibility campaigns designed for scale.",
     whoItsFor:
       "Product launches, brand moments, cultural drops.",
     whatWeDo: [
-      "Big-idea development",
+      "Big idea development",
       "Influencer & content orchestration",
       "Online + offline execution",
-      "End-to-end project management",
+      "End to end project management",
     ],
     outcome:
       "Campaigns people talk about — and act on.",

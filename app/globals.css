@@ -8,3 +8,54 @@ body {
   background-color: #f8f6ff; /* off-white */
   color: #1f1f1f;
 }
+
+/* Brand strip marquee */
+.marquee {
+  overflow: hidden;
+  position: relative;
+}
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  /* move left continuously; duplicated content should make this seamless */
+  animation: marquee 22s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Logo slide-in animation */
+.logo-animate {
+  opacity: 0;
+  transform: translateX(-24px);
+  animation: logoIn 700ms cubic-bezier(.22,.9,.32,1) forwards;
+}
+
+@keyframes logoIn {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-animate {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}

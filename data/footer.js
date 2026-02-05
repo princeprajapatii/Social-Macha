@@ -2,7 +2,7 @@ export const footerData = {
   brand: {
     name: "Social Macha",
     description:
-      "We help businesses grow through data-driven digital marketing strategies and impactful brand experiences.",
+      "We help businesses grow through data driven digital marketing strategies and impactful brand experiences.",
   },
 
   navigation: [

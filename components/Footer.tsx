@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { footerData } from "@/data/footer";
 import PrivacyPolicyModal from "@/components/PrivacyPolicyModal";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   const [openPolicy, setOpenPolicy] = useState(false);
@@ -26,6 +26,15 @@ export default function Footer() {
 
             {/* SOCIAL ICONS */}
             <div className="mt-6 flex gap-3">
+              <a
+                href="https://wa.me/9696185175"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex h-9 w-9 items-center justify-center rounded-full bg-purple-600 text-white hover:bg-purple-500 transition"
+              >
+                <FaWhatsapp size={16} />
+              </a>
+
               <a
                 href="https://www.instagram.com/social_macha"
                 target="_blank"
