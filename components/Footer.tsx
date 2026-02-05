@@ -27,7 +27,7 @@ export default function Footer() {
             {/* SOCIAL ICONS */}
             <div className="mt-6 flex gap-3">
               <a
-                href="https://wa.me/9696185175"
+                href="https://wa.me/919696185175"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-purple-600 text-white hover:bg-purple-500 transition"
