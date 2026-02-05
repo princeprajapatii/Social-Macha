@@ -2,7 +2,7 @@ export const servicesPage = [
   {
     id: "influencer marketing",
     title: "Influencer Marketing",
-    image: "/influencer marketing.png",
+    image: "/influencer-marketing.png",
     whatItIs:
       "Creator collaborations designed to move attention, trust, and sales.",
     whoItsFor:
@@ -38,7 +38,7 @@ export const servicesPage = [
   {
     id: "personal branding",
     title: "Personal Branding",
-    image: "/personal branding.png",
+    image: "/personal-branding.png",
     whatItIs:
       "Strategic personal brand building for modern leaders.",
     whoItsFor:
@@ -55,7 +55,7 @@ export const servicesPage = [
   {
     id: "social media management",
     title: "Social Media Management",
-    image: "/social media.png",
+    image: "/social-media.png",
     whatItIs:
       "Always on social presence, done right.",
     whoItsFor:

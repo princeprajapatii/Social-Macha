@@ -52,7 +52,7 @@ export default function BrandLogos() {
         {/* SLIDER */}
         <motion.div
           className="flex gap-16 w-max"
-          animate={{ x: ["-100%", "0%"] }}
+          animate={{ x: ["0%", "-100%"] }}
           transition={{
             duration: 25,
             ease: "linear",
