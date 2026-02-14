@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function GrowthSection() {
     return (
         <section className="py-16">
@@ -12,7 +13,7 @@ export default function GrowthSection() {
                     {/* IMAGE */}
                     <div className="relative h-48 w-full md:w-56 rounded-xl overflow-hidden">
                         <Image
-                            src="/why.jpg" // replace with your image
+                            src="/why.jpg"
                             alt="Marketing Growth"
                             fill
                             className="object-cover"

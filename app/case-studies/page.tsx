@@ -4,7 +4,7 @@ import CaseStudyCard from "@/components/CaseStudyCard";
 export default function WorkPage() {
   return (
     <section className="bg-[#f6f4ff]">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+      <div className="max-w-7xl mx-auto px-6 py-4">
 
         {/* Header */}
         <div className="max-w-3xl">
@@ -23,7 +23,7 @@ export default function WorkPage() {
         <div className="mt-16 grid grid-cols-1 gap-12">
           
           <CaseStudyCard
-            brand="magicpin"
+            brand="Magicpin"
             objective="Drive user acquisition and app logins among high intent users in metro cities using WhatsApp communities."
             challenge="Low intent from traditional paid channels while targeting college students and corporate professionals."
             strategy={[

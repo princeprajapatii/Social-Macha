@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <section className="bg-[#f6f4ff]">
-      <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+      <div className="max-w-7xl mx-auto px-6 py-4 grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
 
         {/* LEFT CONTENT */}
         <div>
@@ -54,9 +54,12 @@ export default function Hero() {
 
             {/* IMAGE CTA */}
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2">
-              <button className="rounded-full bg-lime-400 px-5 py-2 text-sm font-semibold text-black">
+              <Link
+                href="/contact"
+                className="rounded-full bg-lime-400 px-5 py-2 text-sm font-semibold text-black hover:bg-lime-300 transition inline-block"
+              >
                 Join the Future of Marketing
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -86,7 +89,7 @@ export default function Hero() {
             </p>
 
             <div className="mt-4 flex -space-x-3">
-              {["/user1.jpg", "/user2.jpg", "/user1.jpg"].map((img, index) => (
+              {["/user1.jpg", "/user2.jpg", "/user3.jpg"].map((img, index) => (
                 <div
                   key={index}
                   className="relative h-8 w-8 rounded-full overflow-hidden border-2 border-white"

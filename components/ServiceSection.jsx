@@ -4,7 +4,7 @@ export default function ServiceSection({ service, index }) {
   const isReversed = index % 2 !== 0;
 
   return (
-    <section className="py-24 border-b border-gray-100">
+    <section className="py-4 border-b border-gray-100">
       <div
         className={`max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-start ${
           isReversed ? "lg:flex-row-reverse" : ""

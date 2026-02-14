@@ -4,13 +4,11 @@ export default function AboutPage() {
     return (
         <>
             {/* BRAND STORY */}
-            <section className="relative bg-white py-10">
+            <section className="relative bg-white pt-6">
                 <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 
-                    {/* LEFT CONTENT */}
                     <div>
-
-                        <h1 className="mt-4 text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
+                        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-gray-900">
                             Built to challenge how brands
                             <br />
                             <span className="text-purple-600">

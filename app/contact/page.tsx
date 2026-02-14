@@ -63,7 +63,7 @@ export default function ContactPage() {
     return (
         <>
             {/* PAGE */}
-            <section className="min-h-screen py-24 bg-white">
+            <section className="min-h-screen py-4 bg-white">
                 <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
 
                     {/* LEFT CONTENT */}
@@ -78,13 +78,6 @@ export default function ContactPage() {
 
                         {/* CTA BUTTONS */}
                         <div className="mt-10 flex flex-wrap gap-4">
-                            <a
-                                href="#contact-form"
-                                className="rounded-full bg-purple-600 px-8 py-3 text-sm font-semibold text-white hover:bg-purple-700 transition"
-                            >
-                                Book a Call
-                            </a>
-
                             <a
                                 href="https://wa.me/919696185175"
                                 target="_blank"
@@ -114,15 +107,15 @@ export default function ContactPage() {
                     </div>
 
                      {/* RIGHT FORM */}
-                    <div className="max-w-xl mx-auto px-6">
+                    <div className="max-w-xl mx-auto px-6 text-center">
                         <h1 className="text-4xl font-extrabold text-gray-900">
-                            Let’s build something{" "}
-                            <span className="text-purple-600">people care about.</span>
+                            Get in Touch{" "}
+                            <span className="text-purple-600">with us.</span>
                         </h1>
 
                         <form
                             onSubmit={handleSubmit}
-                            className="mt-10 space-y-6 bg-gray-50 p-8 rounded-2xl"
+                            className="mt-6 space-y-4 bg-gray-50 p-8 rounded-2xl"
                         >
                             <input
                                 name="name"
